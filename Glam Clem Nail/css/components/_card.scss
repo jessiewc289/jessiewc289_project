@@ -1,0 +1,28 @@
+.card {
+  height: 35rem;
+  box-shadow: 0 2rem 2rem rgba($color-black, 0.2);
+  // border: 1px solid $color-grey-light-2;
+  padding: 2rem;
+  background-color: rgba($color-primary-pink, 0.2);
+  border-radius: 5px;
+  &__picture {
+    height: 100%;
+    width: 100%;
+  }
+  &__text-box {
+    font-size: 1.5rem;
+    // visibility: hidden;
+    opacity: 0;
+    transform: translate(1rem, -5rem);
+    transition: all 0.3s;
+    color: $color-white;
+  }
+  &:hover &__text-box {
+    transform: translate(1rem, -10rem);
+    opacity: 1;
+  }
+  &:hover &__picture {
+    transform: scale(1.05);
+    filter: brightness(80%);
+  }
+}

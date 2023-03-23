@@ -1,0 +1,51 @@
+.heading-primary {
+  font-size: 5rem;
+  color: $color-white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3rem;
+}
+
+.heading-secondary {
+  font-size: 4.5rem;
+  color: $color-primary-dark;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2rem;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+  color: $color-primary-dark;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+.heading-quaternary {
+  font-size: 2rem;
+}
+
+.heading-secondary--white {
+  color: $color-white;
+}
+
+.heading-tertiary--white {
+  color: $color-white;
+}
+
+.heading-secondary-right {
+  text-align: right;
+}
+
+// .heading-secondary {
+//   transition: all 0.2s;
+//   &:hover {
+//     background-image: linear-gradient(
+//       to right bottom,
+//       rgba($color-primary-dark-pink, 0.9),
+//       rgba($color-primary-blue, 0.9)
+//     );
+//     background-clip: text;
+//     color: transparent;
+//   }
+// }

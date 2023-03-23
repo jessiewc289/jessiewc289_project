@@ -1,0 +1,38 @@
+.u-margin-top-tiny {
+  margin-top: 1rem;
+}
+.u-margin-top-small {
+  margin-top: 3rem;
+}
+
+.u-margin-top-medium {
+  margin-top: 5rem;
+}
+
+.u-margin-top-large {
+  margin-top: 8rem;
+}
+
+.u-margin-top-huge {
+  margin-top: 11rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 5rem;
+}
+.u-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.u-center-vertical {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+//FONT COLOR
+.u-font-white {
+  color: $color-white;
+}

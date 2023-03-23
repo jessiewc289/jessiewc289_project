@@ -1,0 +1,59 @@
+.footer {
+  background-color: $color-grey-light-2;
+  padding: 6rem 10rem 0 10rem;
+  font-size: 1.5rem;
+  color: $color-primary-dark-pink;
+  letter-spacing: 0.15rem;
+  &__logo-box {
+    width: 50%;
+    transform: translate(-10%, 10%);
+  }
+  &__logo {
+    width: 100%;
+  }
+
+  &__copyright {
+    font-size: 1rem;
+    text-align: center;
+    transform: translate(0, -5rem);
+    text-transform: uppercase;
+  }
+
+  &__follow-us {
+    font-size: 1.8rem;
+  }
+  &__icon {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    margin-top: 1rem;
+    color: $color-primary-dark-pink;
+  }
+
+  &__contact-us-text {
+    font-size: 1.8rem;
+  }
+  &__contact-box > *:not(last-child) {
+    margin-bottom: 3rem;
+  }
+  &__email-box {
+    margin-top: 0.5rem;
+  }
+  &__list {
+    list-style-type: none;
+  }
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: $color-primary-dark-pink;
+    display: inline-block;
+    padding-top: 1rem;
+    text-transform: uppercase;
+  }
+  &__link:hover {
+    color: $color-primary-dark;
+  }
+
+  &__icon:hover {
+    color: $color-primary-dark;
+  }
+}

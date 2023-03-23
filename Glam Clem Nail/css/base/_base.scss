@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", "STHeiti", "Arial",
+    sans-serif, serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  color: $color-grey-dark-1;
+}

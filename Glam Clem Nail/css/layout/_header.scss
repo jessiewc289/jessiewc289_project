@@ -1,0 +1,84 @@
+.header {
+  position: relative;
+  height: 64.7rem;
+  padding: 0 9rem;
+  background-image: linear-gradient(
+    90deg,
+    rgba($color-primary-dark-pink, 0.9) 0%,
+    rgba($color-primary-dark-pink, 0.9) 75%,
+    $color-grey-light-1 75%
+  );
+  overflow: hidden;
+  &__logo {
+    width: 20rem;
+    position: relative;
+    top: 3rem;
+    left: -8rem;
+    animation: moveInLeft 1.25s ease-in;
+  }
+
+  &__text {
+    color: $color-white;
+    height: 45rem;
+    animation: moveInLeft 1.25s ease-in;
+  }
+
+  &__heading-text {
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+  }
+
+  &__heading-btn {
+    margin-top: 5rem;
+  }
+
+  &__picture-box {
+    position: relative;
+    left: 15rem;
+    // height: 60rem;
+  }
+  &__picture {
+    position: absolute;
+    z-index: 1;
+    width: 27rem;
+    height: 27rem;
+    animation: moveInRight 1.25s ease-in;
+    &--1 {
+      left: -14.5rem;
+      top: 10rem;
+    }
+    &--2 {
+      left: 12.5rem;
+      top: 25rem;
+    }
+  }
+  &__decoration-box {
+    position: absolute;
+    animation: moveInRight 1.25s ease-in;
+    &--1 {
+      width: 35em;
+      height: 35rem;
+      background-color: rgba($color-primary-pink, 0.5);
+      // background-image: repeating-conic-gradient(
+      //   $color-primary-dark 0% 25%,
+      //   $color-primary-blue 0% 50%
+      // );
+      left: -30rem;
+    }
+    &--2 {
+      background-color: rgba($color-primary-blue, 0.5);
+      width: 41rem;
+      height: 41rem;
+      top: -6rem;
+      left: -12rem;
+    }
+    &--3 {
+      background-color: rgba($color-primary-pink, 0.5);
+      width: 35rem;
+      height: 35rem;
+      top: 13rem;
+    }
+  }
+}
+//#e37a7a

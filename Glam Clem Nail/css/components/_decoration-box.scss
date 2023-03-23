@@ -1,0 +1,28 @@
+.decoration-box {
+  &--1 {
+    position: absolute;
+    background-color: rgba($color-primary-pink, 0.5);
+  }
+  &--2 {
+    position: absolute;
+    background-color: rgba($color-primary-blue, 0.5);
+  }
+  &--3 {
+    position: absolute;
+    background-color: rgba($color-primary-pink, 0.5);
+  }
+}
+
+.section__decoration-box {
+  &--1 {
+    width: 35rem;
+    height: 35rem;
+    top: -13rem;
+    left: -9rem;
+  }
+  &--2 {
+    width: 45rem;
+    height: 45rem;
+    top: -5rem;
+  }
+}
